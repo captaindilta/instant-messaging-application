@@ -75,3 +75,5 @@ MongoDB commands used:
 >db.messages.insert({"name": "Yogeshwar", "message": "Hello there, how da fuk are you?"})
 
 >db.dropDatabase()
+
+>db.collection.drop()
