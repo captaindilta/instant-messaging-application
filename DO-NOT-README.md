@@ -1,13 +1,9 @@
-// we need to listen to the connections on the socket created by us on our server.
-// user will connect to the server socket, when he opens the web page, that is our program, that is index.html program
-// index.html will connect to the node.js server and include the socket.io.js file on the server, and we will get connected to socket
+We will create a socket on localhost.
+We need to listen to the connections on the socket created by us. User will connect to the socket, when he opens the web page, that is our program, that is index.html program. index.html will connect to the node.js server and include the socket.io.js file on the server, and we will get connected to socket.
 
-// we need to install socket.io using Node Package Manager
-// socket.io module allows us to use socket functionality
-// we need to install mongodb using NPM 
-// mongodb is a node module, allows us to use MongoDB functionality
+we need to install socket.io using Node Package Manager. socket.io module allows us to use socket functionality.
 
-
+we need to install mongodb using NPM. mongodb is the node module that allows us to use MongoDB functionality.
 
 // > npm init
 // to create package.json file
@@ -49,8 +45,6 @@ while attending to the needs of the connected client.
 On the client side, if the connection is accepted, a socket is successfully created 
 and the client can use the socket to communicate with the server.
 The client and server can now communicate by writing to or reading from their sockets.
-
-
 */
 
 
@@ -65,6 +59,4 @@ The server process socket is marked to indicate incoming connections are to be a
 The client requests services from the server by initiating a connection to the server's socket. The client process uses a connect subroutine to initiate a socket connection.
 If the client process' socket is unbound at the time of the connect call, the system automatically selects and binds a name to the socket if necessary. This is the usual way that local addresses are bound to a socket.
 The system returns an error if the connection fails (any name automatically bound by the system, however, remains). Otherwise, the socket is associated with the server and data transfer can begin.
-
-
 */
