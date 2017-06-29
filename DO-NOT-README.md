@@ -65,7 +65,7 @@ The system returns an error if the connection fails (any name automatically boun
 
 
 
-MongoDB commands used:
+some commands:
 >use chat
 
 >show dbs
