@@ -5,19 +5,24 @@ we need to install socket.io using Node Package Manager. socket.io module allows
 
 we need to install mongodb using NPM. mongodb is the node module that allows us to use MongoDB functionality.
 
-> npm init
+>> npm init
+
 // to create package.json file
 
->npm install socket.io
+>> npm install socket.io
+
 // node_modules folder will be created, and it will contain socket.io modules for socket.io functionality
 
->npm install mongodb
+>> npm install mongodb
+
 // it will allow us to use mongodb functionality
 
-> C:\mongodb\server\3.4\bin>mongod
+>> C:\mongodb\server\3.4\bin>mongod
+
 // mongodaemon, starts listening for connections.... basically the database running
 
-> C:\mongodb\server\3.4\bin>mongo
+>> C:\mongodb\server\3.4\bin>mongo
+
 //opens the database and provides command line interface
 
 
