@@ -20,10 +20,6 @@ we need to install mongodb using NPM. mongodb is the node module that allows us 
 // C:\mongodb\server\3.4\bin>mongo
 //opens the database and provides command line interface
 
-// > show dbs
-// > use chat
-// chat is our database name
-
 
 // server will be running on localhost that is 127.0.0.1
 // server is litening on the port number 8080
@@ -60,3 +56,17 @@ The client requests services from the server by initiating a connection to the s
 If the client process' socket is unbound at the time of the connect call, the system automatically selects and binds a name to the socket if necessary. This is the usual way that local addresses are bound to a socket.
 The system returns an error if the connection fails (any name automatically bound by the system, however, remains). Otherwise, the socket is associated with the server and data transfer can begin.
 */
+
+
+
+
+MongoDB commands used:
+>use chat
+
+>show dbs
+
+>db.messages.find()
+
+>db.messages.insert({"name": "Yogeshwar", "message": "Hello there, how da fuk are you?"})
+
+>db.dropDatabase()
