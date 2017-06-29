@@ -11,4 +11,6 @@ The server socket listens to the request emitted by the client, and serves back 
 
 
 A client gets connected to the server socket, when we start our application progam.
-The client sends data to the Node.js server through the socket connection and server inserts into the MongoDB database, and then the server emits the messages to all the connected clients that are connected to that server socket.
+The client sends data to the Node.js server through the socket connection and server inserts data into the MongoDB database, and then the server emits the messages to all the connected clients that are connected to that server socket.
+
+
