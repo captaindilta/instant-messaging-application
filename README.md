@@ -13,4 +13,4 @@ Multiple clients can connect to the server socket at a time, and they all can se
 > Run index.html program in your browser, the client program, every time you run this client program, a new client-server connection is established.
 
 
-Please read explanation.md for understanding the whole flow of the program.
+Please read **explanation.md** for understanding the whole flow of the program.
