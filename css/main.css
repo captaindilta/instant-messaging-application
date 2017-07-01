@@ -1,0 +1,54 @@
+/*Apply a general font to page and textarea*/
+body,
+textarea,
+input {
+	font: 13px "Trebuchet MS", sans-serif;
+}
+
+/*max width of the container which is <div class = “chat”>*/
+.chat {
+	max-width: 300px;
+}
+
+/*apply a border to the messages, textarea, and the textfield*/
+.chat-messages,
+.chat textarea,
+.chat-name {
+	border: 2px solid #bbb;
+}
+
+/*the container where all messages would appear*/
+.chat-messages {
+	width: 100%;
+	height: 300px;
+	/*this container might have a overflow we need scrool and might want to view more*/
+	overflow-y: scroll;
+	/*The CSS padding properties are used to generate space around content*/
+	padding: 10px;
+}
+
+.chat-name {
+	width: 100%;
+	padding: 10px;
+	border-bottom: 0;
+	margin: 0;
+}
+
+.chat textarea {
+	width: 100%;
+	padding: 10px;
+	border-top: 0;
+	margin: 0;
+	/*will not allow to enlarge textarea horizontally*/
+	max-width: 100%;
+}
+
+.chat-status {
+	/* #bbb is the grey color*/
+	color: #bbb; 
+}
+
+.chat textarea,
+.chat-name {
+	outline: none;
+}
