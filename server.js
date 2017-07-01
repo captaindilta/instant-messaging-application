@@ -1,20 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // variable mongo, accesses MongoClient's path, that makes connection to database
 var mongo = require('mongodb').MongoClient;
 // 'mongodb' is name of the package
