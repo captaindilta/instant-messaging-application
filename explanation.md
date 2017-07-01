@@ -6,7 +6,9 @@ This program contains a self invoking JavaScript function, which contains all th
 First of all it emits an event 'connection', this event is listened at the socket.
 
 Event Emitter
-> var socket = io.connect('http//127.0.0.1/8080');
+```JavaScript
+var socket = io.connect('http//127.0.0.1/8080');
+```
 
 Above statement from index.html, will emit an event named 'connection', to be listened to at the socket, i.e. port 8080 of localhost.
 
