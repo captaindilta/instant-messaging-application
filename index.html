@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Instant Messaging</title>
+		<link rel = "stylesheet" href = "css/main.css">
+	<head>
+	
+	<body>
+		
+		<div class = "chat">
+			<input type = "text" class = "chat-name" placeholder = "Enter your name here">
+			
+			<div class = "chat-messages"></div>
+			
+			<textarea placeholder = "Enter your message here"></textarea>
+			
+			<div class = "chat-status">Status: <span>Online</span></div>
+		</div>
+		
+		<!-- 
+		including the javascript dependency socket.io.js from server only
+		connecting to our server and its serving the installed socket.io files
+		
+		we are not including server.js locally, we are including it from server itself
+		-->
+		<script src = "http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+		<script src = "client.js"></script>
+	
+	</body>
+</html>
